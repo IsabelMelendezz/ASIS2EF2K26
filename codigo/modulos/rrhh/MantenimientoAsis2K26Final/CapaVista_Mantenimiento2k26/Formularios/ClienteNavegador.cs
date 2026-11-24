@@ -17,7 +17,7 @@ namespace CapaVista_Mantenimiento2k26.Formularios
     {
         ClsModeloCliente datos = new ClsModeloCliente();
         ClsModeloMantenimientoApp datos2 = new ClsModeloMantenimientoApp();
-
+        //subiendo mi navegador para la tabla clientes  
         public ClienteNavegador()
         {
             InitializeComponent();
