@@ -1,9 +1,0 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Lote">
-  <ItemGroup>
-    <Compilar Include="C:\_s418529\codigo\componentes\reporteador\Reporteador\CapaControlador_Reporteador\CapaControlador_Reporteador.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\componentes\reporteador\Reporteador/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-092151-48a148\marcas\r1_180.ok</AdditionalProperties></Compilar>
-  </ItemGroup>
-  <Target Name="Lote">
-    <MSBuild Projects="@(Compilar)" Targets="Build" BuildInParallel="true" ContinueOnError="true" Condition="'@(Compilar)' != ''" />
-    <MSBuild Projects="@(Recompilar)" Targets="Rebuild" BuildInParallel="true" ContinueOnError="true" Condition="'@(Recompilar)' != ''" />
-  </Target>
-</Project>
