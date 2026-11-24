@@ -25,6 +25,7 @@ namespace CapaVista_Mantenimiento2k26.Formularios
             fuentes.Add("DsCliente", datos.ClienteMetObtenerParaReporte());
             fuentes.Add("RpReporteMantenimientoAplicacion", datos2.SeguridadMetObtenerTodos());
             navegador1.NavegadorMetConfigurar("tbl_Cliente", 9000, 9151, fuentes);
+            //Agregando el funcionamiento para mi navegador
         }
     }
 }
