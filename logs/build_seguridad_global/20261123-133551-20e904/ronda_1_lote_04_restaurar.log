@@ -1,0 +1,46 @@
+﻿
+
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Restaurando el paquete NuGet Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0.
+  Restaurando el paquete NuGet Microsoft.SqlServer.Types.14.0.314.76.
+  Agregando el paquete "Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0" a la carpeta "C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\Componentes\packages"
+  Agregando el paquete "Microsoft.SqlServer.Types.14.0.314.76" a la carpeta "C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\Componentes\packages"
+  Restaurando el paquete NuGet MSTest.TestFramework.2.2.10.
+  Restaurando el paquete NuGet MSTest.TestAdapter.2.2.10.
+  Se agregó el paquete "Microsoft.SqlServer.Types.14.0.314.76" a la carpeta "C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\Componentes\packages"
+  Agregando el paquete "MSTest.TestFramework.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\OrdenesCompra\packages"
+  Agregando el paquete "MSTest.TestAdapter.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\OrdenesCompra\packages"
+  Se agregó el paquete "Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0" a la carpeta "C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\Componentes\packages"
+  Se ha restaurado C:\_s418529\codigo\modulos\bancos\Bibliotecas de Bancos\Autorizacion_OrdenesCompraBancos\Test_AutorizacionOrdenesCompra\Test_AutorizacionOrdenesCompra.csproj (en 430 ms).
+  Se ha restaurado C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\CierreMovimientos_Ventas\CapaVista_CierreMovimientos_Ventas\CapaVista_CierreMovimientos_Ventas.csproj (en 454 ms).
+  Se ha restaurado C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Reportes_Ventas\CapaVista_Reportes_Ventas\CapaVista_Reportes_Ventas.csproj (en 420 ms).
+  1 de 2 proyectos están actualizados para la restauración.
+  1 de 2 proyectos están actualizados para la restauración.
+  Se ha restaurado C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Facturas_Ventas\CapaVista_Facturas_Ventas\CapaVista_Facturas_Ventas.csproj (en 453 ms).
+  1 de 2 proyectos están actualizados para la restauración.
+  Se ha restaurado C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Cotizaciones_Ventas\TestCotizaciones\TestCotizaciones.csproj (en 400 ms).
+  Se agregó el paquete "MSTest.TestFramework.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\OrdenesCompra\packages"
+  1 de 2 proyectos están actualizados para la restauración.
+  Se ha restaurado C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Pedidos_Ventas\TestPedidos\TestPedidos.csproj (en 409 ms).
+  1 de 2 proyectos están actualizados para la restauración.
+  Se ha restaurado C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\ListadoPrecios_Ventas\TestListadoPrecios\TestListadoPrecios.csproj (en 455 ms).
+  Se ha restaurado C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\MovimientosClientes_Ventas\TestMovimientosClientes\TestMovimientosClientes.csproj (en 437 ms).
+  2 de 3 proyectos están actualizados para la restauración.
+  1 de 2 proyectos están actualizados para la restauración.
+  Determinando los proyectos que se van a restaurar...
+  Se agregó el paquete "MSTest.TestAdapter.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\OrdenesCompra\packages"
+  Se ha restaurado C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\NominasEmpleados\MSTestNominaEncabezado\MSTestNominaEncabezado.csproj (en 1.56 s).
+  Se ha restaurado C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Pedidos_Ventas\CapaVista_Pedidos_Ventas\CapaVista_Pedidos_Ventas.csproj (en 423 ms).
+  1 de 2 proyectos están actualizados para la restauración.
+  Se ha restaurado C:\_s418529\codigo\modulos\bancos\Bibliotecas de Bancos\Disponibilidad_DiariaBancos\MSTestDisponibilidadDiariaBancos\MSTestDisponibilidadDiariaBancos.csproj (en 613 ms).

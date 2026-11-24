@@ -1,0 +1,38 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Lote">
+  <ItemGroup>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=1</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\bancos\Bibliotecas de Bancos\Autorizacion_OrdenesCompraBancos\Test_AutorizacionOrdenesCompra\Test_AutorizacionOrdenesCompra.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\bancos\Bibliotecas de Bancos\Autorizacion_OrdenesCompraBancos/</AdditionalProperties><Grupo>1</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=2</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\bancos\Bibliotecas de Bancos\Disponibilidad_DiariaBancos\MSTestDisponibilidadDiariaBancos\MSTestDisponibilidadDiariaBancos.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\bancos\Bibliotecas de Bancos\Disponibilidad_DiariaBancos/</AdditionalProperties><Grupo>2</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=3</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\OrdenesCompra\PruebaUnitaria_OrdenesCompra\PruebaUnitaria_OrdenesCompra.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\OrdenesCompra/</AdditionalProperties><Grupo>3</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=4</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Cotizaciones_Ventas\TestCotizaciones\TestCotizaciones.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Cotizaciones_Ventas/</AdditionalProperties><Grupo>4</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=5</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\ListadoPrecios_Ventas\TestListadoPrecios\TestListadoPrecios.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\ListadoPrecios_Ventas/</AdditionalProperties><Grupo>5</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=6</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\MovimientosClientes_Ventas\TestMovimientosClientes\TestMovimientosClientes.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\MovimientosClientes_Ventas/</AdditionalProperties><Grupo>6</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=7</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Pedidos_Ventas\TestPedidos\TestPedidos.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Pedidos_Ventas/</AdditionalProperties><Grupo>7</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=8</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\Componentes\CapaVista_Componentes\CapaVista_Componentes.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\Componentes/</AdditionalProperties><Grupo>8</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=9</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\CierreMovimientos_Ventas\CapaVista_CierreMovimientos_Ventas\CapaVista_CierreMovimientos_Ventas.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\CierreMovimientos_Ventas/</AdditionalProperties><Grupo>9</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=10</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Facturas_Ventas\CapaVista_Facturas_Ventas\CapaVista_Facturas_Ventas.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Facturas_Ventas/</AdditionalProperties><Grupo>10</Grupo></Restaurar>
+    <Restaurar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Pedidos_Ventas\CapaVista_Pedidos_Ventas\CapaVista_Pedidos_Ventas.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Pedidos_Ventas/</AdditionalProperties><Grupo>7</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=11</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Reportes_Ventas\CapaVista_Reportes_Ventas\CapaVista_Reportes_Ventas.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\Reportes_Ventas/</AdditionalProperties><Grupo>11</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_04_restaurar.proj"><AdditionalProperties>SeguridadGrupo=12</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\NominasEmpleados\MSTestNominaEncabezado\MSTestNominaEncabezado.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\NominasEmpleados/</AdditionalProperties><Grupo>12</Grupo></Restaurar>
+  </ItemGroup>
+  <Target Name="Lote">
+    <MSBuild Projects="@(Grupo)" Targets="RestaurarGrupo" BuildInParallel="true" ContinueOnError="true" />
+  </Target>
+  <Target Name="RestaurarGrupo">
+    <ItemGroup>
+      <DelGrupo Include="@(Restaurar)" Condition="'%(Restaurar.Grupo)' == '$(SeguridadGrupo)'" />
+    </ItemGroup>
+    <MSBuild Projects="@(DelGrupo)" Targets="Restore" BuildInParallel="false" ContinueOnError="true" Properties="RestorePackagesConfig=true;NuGetAudit=false;MSBuildRestoreSessionId=0ed0d579-129d-4c93-8eb6-5e9683f8d5c3" />
+  </Target>
+</Project>

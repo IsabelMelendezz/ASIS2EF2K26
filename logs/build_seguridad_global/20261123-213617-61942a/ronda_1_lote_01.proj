@@ -1,0 +1,12 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Lote">
+  <ItemGroup>
+    <Compilar Include="C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\CierreNominas\CapaModelo_CierreNominas\CapaModelo_CierreNominas.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\CierreNominas/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261123-213617-61942a\marcas\r1_047.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\Recursos Humanos\CapaModelo_Rrhh\CapaModelo_Rrhh.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\Recursos Humanos/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261123-213617-61942a\marcas\r1_054.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\modulos\rrhh\MantenimientoAsis2K26Final\CapaModelo_MantenimientoAsis2k26\CapaModelo_MantenimientoAsis2k26.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\rrhh\MantenimientoAsis2K26Final/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261123-213617-61942a\marcas\r1_055.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\modulos\rrhh\MantenimientoAsis2K26Final\MantenimientoAsis2K26Final\MantenimientoAsis2K26Final.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\rrhh\MantenimientoAsis2K26Final/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261123-213617-61942a\marcas\r1_165.ok</AdditionalProperties></Compilar>
+  </ItemGroup>
+  <Target Name="Lote">
+    <MSBuild Projects="@(Compilar)" Targets="Build" BuildInParallel="true" ContinueOnError="true" Condition="'@(Compilar)' != ''" />
+    <MSBuild Projects="@(Recompilar)" Targets="Rebuild" BuildInParallel="true" ContinueOnError="true" Condition="'@(Recompilar)' != ''" />
+  </Target>
+</Project>

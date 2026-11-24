@@ -1,0 +1,10 @@
+
+cat >> .gitignore <<'EOF'
+
+# Visual Studio / compilación
+.vs/
+bin/
+obj/
+packages/
+*.user
+*.suo

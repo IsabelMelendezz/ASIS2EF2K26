@@ -1,0 +1,47 @@
+﻿
+
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Restaurando el paquete NuGet MSTest.TestAdapter.2.2.10.
+  Restaurando el paquete NuGet MSTest.TestFramework.2.2.10.
+  Restaurando el paquete NuGet MSTest.TestAdapter.2.2.10.
+  Restaurando el paquete NuGet MSTest.TestFramework.2.2.10.
+  Determinando los proyectos que se van a restaurar...
+  Agregando el paquete "MSTest.TestFramework.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\CierreContable_Contabilidad\packages"
+  Agregando el paquete "MSTest.TestAdapter.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\CierreContable_Contabilidad\packages"
+  Agregando el paquete "MSTest.TestFramework.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\EstadosFinancieros_Contabilidad\packages"
+  Agregando el paquete "MSTest.TestAdapter.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\EstadosFinancieros_Contabilidad\packages"
+  Restaurando el paquete NuGet MSTest.TestAdapter.2.2.10.
+  Restaurando el paquete NuGet MSTest.TestFramework.2.2.10.
+  Determinando los proyectos que se van a restaurar...
+  Agregando el paquete "MSTest.TestAdapter.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\PolizasCuentas_Contabilidad\packages"
+  Agregando el paquete "MSTest.TestFramework.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\PolizasCuentas_Contabilidad\packages"
+  Se ha restaurado C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\Presupuestos_Contabilidad\Pruebas_Presupuestos_Contabilidad\Pruebas_Presupuestos_Contabilidad.csproj (en 336 ms).
+  Determinando los proyectos que se van a restaurar...
+  Se agregó el paquete "MSTest.TestFramework.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\EstadosFinancieros_Contabilidad\packages"
+  Se agregó el paquete "MSTest.TestFramework.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\CierreContable_Contabilidad\packages"
+  Se agregó el paquete "MSTest.TestAdapter.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\CierreContable_Contabilidad\packages"
+  Se agregó el paquete "MSTest.TestAdapter.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\EstadosFinancieros_Contabilidad\packages"
+  Se agregó el paquete "MSTest.TestFramework.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\PolizasCuentas_Contabilidad\packages"
+  Determinando los proyectos que se van a restaurar...
+  Determinando los proyectos que se van a restaurar...
+  Restaurando el paquete NuGet Microsoft.SqlServer.Types.14.0.314.76.
+  Restaurando el paquete NuGet Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0.
+  Agregando el paquete "Microsoft.SqlServer.Types.14.0.314.76" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\EstadosFinancieros_Contabilidad\packages"
+  Agregando el paquete "Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\EstadosFinancieros_Contabilidad\packages"
+  Restaurando el paquete NuGet Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0.
+  Restaurando el paquete NuGet Microsoft.SqlServer.Types.14.0.314.76.
+  Se ha restaurado C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\PagosProveedores\PruebaUnitaria_PagosProveedores\PruebaUnitaria_PagosProveedores.csproj (en 373 ms).
+  Agregando el paquete "Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\CierreContable_Contabilidad\packages"
+  Agregando el paquete "Microsoft.SqlServer.Types.14.0.314.76" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\CierreContable_Contabilidad\packages"
+  Se agregó el paquete "Microsoft.SqlServer.Types.14.0.314.76" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\EstadosFinancieros_Contabilidad\packages"
+  Se agregó el paquete "MSTest.TestAdapter.2.2.10" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\PolizasCuentas_Contabilidad\packages"
+  Se agregó el paquete "Microsoft.SqlServer.Types.14.0.314.76" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\CierreContable_Contabilidad\packages"
+  Se agregó el paquete "Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\EstadosFinancieros_Contabilidad\packages"
+  Se ha restaurado C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\CierreNominas\MsTestCierreNomina\MsTestCierreNomina.csproj (en 459 ms).
+  Se agregó el paquete "Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0" a la carpeta "C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\CierreContable_Contabilidad\packages"
+  Se ha restaurado C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\Presupuestos_Contabilidad\TestReportePresupuestos_Contabilidad\TestReportePresupuestos_Contabilidad.csproj (en 319 ms).
+  Se ha restaurado C:\_s418529\codigo\modulos\contabilidad\Bibliotecas de Contabilidad\ActivosFijos_Contabilidad\TestReporteActivosFijos_Contabilidad\TestReporteActivosFijos_Contabilidad.csproj (en 389 ms).

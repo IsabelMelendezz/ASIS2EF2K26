@@ -1,0 +1,21 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Lote">
+  <ItemGroup>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_02_restaurar.proj"><AdditionalProperties>SeguridadGrupo=1</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\ListadoPrecios_Ventas\CapaModelo_ListadoPrecios_Ventas\CapaModelo_ListadoPrecios_Ventas.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\ListadoPrecios_Ventas/</AdditionalProperties><Grupo>1</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_02_restaurar.proj"><AdditionalProperties>SeguridadGrupo=2</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\Logistica\Inventario_Logistica\CapaControlador_Inventario_Logistica\CapaControlador_Inventario_Logistica.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\Logistica\Inventario_Logistica/</AdditionalProperties><Grupo>2</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_02_restaurar.proj"><AdditionalProperties>SeguridadGrupo=3</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\bancos\Bibliotecas de Bancos\Movimientos_BancariosBancos\Test_MovimientosBancarios_Bancos\Test_MovimientosBancarios_Bancos.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\bancos\Bibliotecas de Bancos\Movimientos_BancariosBancos/</AdditionalProperties><Grupo>3</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_02_restaurar.proj"><AdditionalProperties>SeguridadGrupo=4</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\Logistica\CierreInventario_Logistica\PruebaUnitaria_CierreInventario_Logistica\PruebaUnitaria_CierreInventario_Logistica.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\Logistica\CierreInventario_Logistica/</AdditionalProperties><Grupo>4</Grupo></Restaurar>
+  </ItemGroup>
+  <Target Name="Lote">
+    <MSBuild Projects="@(Grupo)" Targets="RestaurarGrupo" BuildInParallel="true" ContinueOnError="true" />
+  </Target>
+  <Target Name="RestaurarGrupo">
+    <ItemGroup>
+      <DelGrupo Include="@(Restaurar)" Condition="'%(Restaurar.Grupo)' == '$(SeguridadGrupo)'" />
+    </ItemGroup>
+    <MSBuild Projects="@(DelGrupo)" Targets="Restore" BuildInParallel="false" ContinueOnError="true" Properties="RestorePackagesConfig=true;NuGetAudit=false;MSBuildRestoreSessionId=2c39fa29-e10a-4066-81c2-4122655fa08a" />
+  </Target>
+</Project>

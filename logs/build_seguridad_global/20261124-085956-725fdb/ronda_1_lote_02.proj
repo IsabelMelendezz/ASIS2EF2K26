@@ -1,0 +1,14 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Lote">
+  <ItemGroup>
+    <Compilar Include="C:\_s418529\codigo\componentes\navegador\Navegador\CapaModelo_Navegador\CapaModelo_Navegador.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\componentes\navegador\Navegador/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-085956-725fdb\marcas\r1_012.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\CierreMovimientos\CapaModelo_CierreMovimientos\CapaModelo_CierreMovimientos.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\CierreMovimientos/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-085956-725fdb\marcas\r1_023.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\Componentes\CapaModelo_Componentes\CapaModelo_Componentes.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\Componentes/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-085956-725fdb\marcas\r1_024.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\OrdenesCompra\CapaModelo_OrdenesCompra\CapaModelo_OrdenesCompra.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\compras\Bibliotecas de clase Compras\OrdenesCompra/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-085956-725fdb\marcas\r1_028.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\CierreMovimientos_Ventas\CapaModelo_CierreMovimientos_Ventas\CapaModelo_CierreMovimientos_Ventas.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\CierreMovimientos_Ventas/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-085956-725fdb\marcas\r1_058.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\componentes\seguridad\Seguridad\CapaControlador_Seguridad\CapaControlador_Seguridad.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\componentes\seguridad\Seguridad/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-085956-725fdb\marcas\r1_076.ok</AdditionalProperties></Compilar>
+  </ItemGroup>
+  <Target Name="Lote">
+    <MSBuild Projects="@(Compilar)" Targets="Build" BuildInParallel="true" ContinueOnError="true" Condition="'@(Compilar)' != ''" />
+    <MSBuild Projects="@(Recompilar)" Targets="Rebuild" BuildInParallel="true" ContinueOnError="true" Condition="'@(Recompilar)' != ''" />
+  </Target>
+</Project>

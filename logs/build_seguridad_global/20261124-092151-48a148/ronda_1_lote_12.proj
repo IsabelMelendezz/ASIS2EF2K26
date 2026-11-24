@@ -1,0 +1,9 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Lote">
+  <ItemGroup>
+    <Recompilar Include="C:\_s418529\codigo\componentes\seguridad\Seguridad\CapaVista_Seguridad\CapaVista_Seguridad.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\componentes\seguridad\Seguridad/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-092151-48a148\marcas\r1_247.ok</AdditionalProperties></Recompilar>
+  </ItemGroup>
+  <Target Name="Lote">
+    <MSBuild Projects="@(Compilar)" Targets="Build" BuildInParallel="true" ContinueOnError="true" Condition="'@(Compilar)' != ''" />
+    <MSBuild Projects="@(Recompilar)" Targets="Rebuild" BuildInParallel="true" ContinueOnError="true" Condition="'@(Recompilar)' != ''" />
+  </Target>
+</Project>

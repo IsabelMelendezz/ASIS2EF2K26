@@ -1,0 +1,28 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Lote">
+  <ItemGroup>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_15_restaurar.proj"><AdditionalProperties>SeguridadGrupo=1</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\AsigCapacitacion\MSTestAsigCapacitacion\MSTestAsigCapacitacion.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\AsigCapacitacion/</AdditionalProperties><Grupo>1</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_15_restaurar.proj"><AdditionalProperties>SeguridadGrupo=2</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\Asistencia\MSTestAsistencia\MSTestAsistencia.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\Asistencia/</AdditionalProperties><Grupo>2</Grupo></Restaurar>
+    <Restaurar Include="C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\Asistencia\MSTestHorasExtra\MSTestHorasExtra.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\Asistencia/</AdditionalProperties><Grupo>2</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_15_restaurar.proj"><AdditionalProperties>SeguridadGrupo=3</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\compras\Ejecucion_Compras\Ejecucion_Compras\Ejecucion_Compras.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\compras\Ejecucion_Compras/</AdditionalProperties><Grupo>3</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_15_restaurar.proj"><AdditionalProperties>SeguridadGrupo=4</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\EvaluacionDesempeno\TestEvaluacionDesempeno\MSTestEvaluacionDesempeno.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\EvaluacionDesempeno/</AdditionalProperties><Grupo>4</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_15_restaurar.proj"><AdditionalProperties>SeguridadGrupo=5</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\Liquidacion_Empleados_Rrhh\TestBajaEmpleado\MSTestBajaEmpleado.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\Liquidacion_Empleados_Rrhh/</AdditionalProperties><Grupo>5</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_15_restaurar.proj"><AdditionalProperties>SeguridadGrupo=6</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\PermisosVacaciones\TestPermisosVacaciones\MSTestPermisosVacaciones.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\rrhh\Bibliotecas de clase RRHH\PermisosVacaciones/</AdditionalProperties><Grupo>6</Grupo></Restaurar>
+    <Grupo Include="C:\_s418529\logs\build_seguridad_global\20261123-133551-20e904\ronda_1_lote_15_restaurar.proj"><AdditionalProperties>SeguridadGrupo=7</AdditionalProperties></Grupo>
+    <Restaurar Include="C:\_s418529\codigo\modulos\ventas\Ejecutable_Ventas\Ejecutable_Ventas\Ejecucion_Ventas.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Ejecutable_Ventas/</AdditionalProperties><Grupo>7</Grupo></Restaurar>
+  </ItemGroup>
+  <Target Name="Lote">
+    <MSBuild Projects="@(Grupo)" Targets="RestaurarGrupo" BuildInParallel="true" ContinueOnError="true" />
+  </Target>
+  <Target Name="RestaurarGrupo">
+    <ItemGroup>
+      <DelGrupo Include="@(Restaurar)" Condition="'%(Restaurar.Grupo)' == '$(SeguridadGrupo)'" />
+    </ItemGroup>
+    <MSBuild Projects="@(DelGrupo)" Targets="Restore" BuildInParallel="false" ContinueOnError="true" Properties="RestorePackagesConfig=true;NuGetAudit=false;MSBuildRestoreSessionId=41c94a47-1f86-4fca-b473-59f12ff398fd" />
+  </Target>
+</Project>

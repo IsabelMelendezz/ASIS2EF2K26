@@ -1,0 +1,14 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Lote">
+  <ItemGroup>
+    <Recompilar Include="C:\_s418529\codigo\componentes\reporteador\BtnBusqueda_Reporteador\CapaControlador_BtnBusqueda\CapaControlador_BtnBusqueda.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\componentes\reporteador\BtnBusqueda_Reporteador/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-091139-eca388\marcas\r1_068.ok</AdditionalProperties></Recompilar>
+    <Compilar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\CierreMovimientos_Ventas\CapaControlador_CierreMovimientos_Ventas\CapaControlador_CierreMovimientos_Ventas.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\CierreMovimientos_Ventas/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-091139-eca388\marcas\r1_119.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\componentes\reporteador\BtnActualizar_Reporteador\CapaVista_BtnActualizar_Reporteador\CapaVista_BtnActualizar_Reporteador.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\componentes\reporteador\BtnActualizar_Reporteador/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-091139-eca388\marcas\r1_172.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\componentes\reporteador\BtnEditar_Reporteador\CapaVista_BtnEditar_Reporteador\CapaVista_BtnEditar_Reporteador.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\componentes\reporteador\BtnEditar_Reporteador/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-091139-eca388\marcas\r1_175.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\componentes\reporteador\BtnRuta_Reporteador\CapaVista_BtnRuta_Reporteador\CapaVista_BtnRuta_Reporteador.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\componentes\reporteador\BtnRuta_Reporteador/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-091139-eca388\marcas\r1_181.ok</AdditionalProperties></Compilar>
+    <Compilar Include="C:\_s418529\codigo\componentes\reporteador\BtnVerReporte_Reporteador\CapaVista_BtnVerReporte_Reporteador\CapaVista_BtnVerReporte_Reporteador.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\componentes\reporteador\BtnVerReporte_Reporteador/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261124-091139-eca388\marcas\r1_182.ok</AdditionalProperties></Compilar>
+  </ItemGroup>
+  <Target Name="Lote">
+    <MSBuild Projects="@(Compilar)" Targets="Build" BuildInParallel="true" ContinueOnError="true" Condition="'@(Compilar)' != ''" />
+    <MSBuild Projects="@(Recompilar)" Targets="Rebuild" BuildInParallel="true" ContinueOnError="true" Condition="'@(Recompilar)' != ''" />
+  </Target>
+</Project>

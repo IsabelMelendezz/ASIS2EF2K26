@@ -1,0 +1,9 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Lote">
+  <ItemGroup>
+    <Compilar Include="C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\CierreMovimientos_Ventas\CapaControlador_CierreMovimientos_Ventas\CapaControlador_CierreMovimientos_Ventas.csproj"><AdditionalProperties>SolutionDir=C:\_s418529\codigo\modulos\ventas\Biblioteca de clase Ventas Y CxC\CierreMovimientos_Ventas/;SeguridadMarca=C:\_s418529\logs\build_seguridad_global\20261123-150418-e742b6\marcas\r1_117.ok</AdditionalProperties></Compilar>
+  </ItemGroup>
+  <Target Name="Lote">
+    <MSBuild Projects="@(Compilar)" Targets="Build" BuildInParallel="true" ContinueOnError="true" Condition="'@(Compilar)' != ''" />
+    <MSBuild Projects="@(Recompilar)" Targets="Rebuild" BuildInParallel="true" ContinueOnError="true" Condition="'@(Recompilar)' != ''" />
+  </Target>
+</Project>
