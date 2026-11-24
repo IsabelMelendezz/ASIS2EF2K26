@@ -17,7 +17,7 @@ namespace CapaVista_Mantenimiento2k26.Formularios
     {
         ClsModeloCliente datos = new ClsModeloCliente();
         ClsModeloMantenimientoApp datos2 = new ClsModeloMantenimientoApp();
-
+        //subiendo mi navegador para la tabla clientes  
         public ClienteNavegador()
         {
             InitializeComponent();
@@ -25,6 +25,7 @@ namespace CapaVista_Mantenimiento2k26.Formularios
             fuentes.Add("DsCliente", datos.ClienteMetObtenerParaReporte());
             fuentes.Add("RpReporteMantenimientoAplicacion", datos2.SeguridadMetObtenerTodos());
             navegador1.NavegadorMetConfigurar("tbl_Cliente", 9000, 9151, fuentes);
+            //Agregando el funcionamiento para mi navegador
         }
     }
 }
